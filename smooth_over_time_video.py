@@ -1,6 +1,6 @@
 # SMOOTH OVER TIME BY AVERAGING FLOW ESTIMATES OVER n TIME FRAMES
 from utils import load_brain_data
-brain_data, X, Y, masked_xyz, mask_data = load_brain_data('/Users/catherinetu/Documents/Opticalflow/sub-dex7t03_ses-1_task-dex_acq-csf_bold_MC.nii')
+brain_data, X, Y, masked_xyz = load_brain_data('/Users/catherinetu/Documents/Opticalflow/sub-dex7t03_ses-1_task-dex_acq-csf_bold_MC.nii')
 
 import numpy as np
 import matplotlib.pyplot as plt
